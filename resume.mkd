@@ -8,14 +8,15 @@ Work Experience
 
     December 2009 - present
 
-    -   Conceived and built a business involving a novel course-based textbook 
-        price comparison website, in a team of three.
+    -   Conceived and built a course-based textbook shopping website supporting
+        over 1200 colleges.  Users select their courses, we look up their books
+        and find the cheapest way to buy them online.
 
-    -   Designed and wrote most of the **PHP/MySQL** backend, using a makeshift
+    -   Designed and wrote most of the **PHP/MySQL** backend, using a custom
         **MVC**, **Propel ORM**, and **Memcached**.
 
-    -   Wrote modular, piecemeal, on-demand bookstore scrapers handling 
-        JavaScript and cookies.
+    -   Wrote multiple piecemeal bookstore scrapers handling JavaScript and
+        cookies.
 
     -   Managed our **Linux** server.
 
@@ -23,8 +24,8 @@ Work Experience
 
     June 2010 - August 2010
 
-    -   Designed and wrote [AskQ][], a **Semantic MediaWiki** extension that 
-        translates plain-text user queries into structured semantic queries and 
+    -   Designed and wrote [AskQ][], a **Semantic MediaWiki** extension that
+        translates plain-text user queries into structured semantic queries and
         adds rudimentary faceted browsing to query results, using **PHP**,
         **MySQL**, and **jQuery**.
 
@@ -38,36 +39,32 @@ Work Experience
 Education
 ---------
 
-*   *B.A. in Computer Science, Minor in Linguistics*, [Tufts University][], Medford, MA
+*   *B.A. in Computer Science, Minor in Linguistics*, (GPA: 3.44) [Tufts University][], Medford, MA
 
     (expected May 2012)
 
-    -   GPA: 3.44.  Dean's list Fall 2008, 2009, 2010.
+    -   CS classes on topics such as algorithms, machine structure, programming
+        languages, operating systems, web development, the semantic web,
+        theory of computation, and artificial intelligence.
 
-    -   Semester abroad at the University of Tübingen, Germany.
+    -   **C** and **C++** programming with **valgrind**, **gdb**, and **ddd**
 
-    -   Some particular things I learned in school:
-        *   Analysis and design of **algorithms**
-        *   How to write good **C/C++** using **valgrind**, **gdb**, and **ddd**
-        *   **Assembly** and machine structure
-        *   Theoretical and computational **linguistics**
-        *   **Philosophy** of mind and language
+    -   **Linguistics** and **philosophy** of mind
 
+    -   Semester abroad at the University of Tübingen in Germany
 
 Skills
 ------
 
-*   In addition to the skills in bold above, various levels of experience with 
-    **Python**, **Prolog**, **LaTeX**, **Scheme**, **Java**, **Ruby**, 
-    **Haskell**, **XSLT**, and **BASIC**.
+*   I have experienced many programming languages and tools through personal
+    and school projects and read about many more, but the only ones I should
+    be hired based on experience with are **PHP**, **C**, **MySQL**, 
+    **MediaWiki**, and perhaps **Python**.
 
-*   Creative vision informed by diverse subject-area knowledge and keen
-    awareness of existing tools and their capabilities.
+*   Proficiency in German, familiarity with Spanish, and ability and desire
+    to learn new languages.
 
-*   Ability to write flawless, even brilliant prose.
-
-*   Proficiency in German, near-proficiency in Spanish, and ability to learn
-    new languages quickly.
+*   Creative, hard-working, good communicator, excellent writer.
 
  [Getchabooks]: http://getchabooks.com
  [AIFB]: http://www.aifb.kit.edu
