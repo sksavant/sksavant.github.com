@@ -1,5 +1,5 @@
-Michael White <m@mwhite.info>
-=============================
+Michael White \hfill <m@mwhite.info>
+====================================
 
 Work Experience
 ---------------
@@ -56,10 +56,10 @@ Education
 Skills
 ------
 
-*   I have experienced many programming languages and tools through personal
-    and school projects and read about many more, but the only ones I should
-    be hired based on experience with are **PHP**, **C**, **MySQL**, 
-    **MediaWiki**, and perhaps **Python**.
+*   Very experienced with **PHP**, **C**, **MySQL**, and **MediaWiki**.
+    Moderately experienced with **Python**.  Familiar with **C++**,
+    **JavaScript**, **jQuery**, **Prolog**, **Lisp**, **Haskell**, **Java**,
+    **Ruby**, **Bash**, **XSLT**, **LaTeX**, and **CSS**.
 
 *   Proficiency in German, familiarity with Spanish, and ability and desire
     to learn new languages.
