@@ -15,8 +15,8 @@ Work Experience
     -   Designed and wrote most of the **PHP/MySQL** backend, using a custom
         **MVC**, **Propel ORM**, and **Memcached**.
 
-    -   Wrote multiple piecemeal bookstore scrapers handling JavaScript and
-        cookies.
+    -   Wrote multiple real-time piecemeal bookstore scrapers handling 
+        JavaScript and cookies.
 
     -   Managed our **Linux** server.
 
