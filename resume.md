@@ -4,29 +4,31 @@ Michael White \hfill <m@mwhite.info>
 Work Experience
 ---------------
 
-*   *Co-Founder and Backend Engineer* at [GetchaBooks][], LLC
+*   *Co-Founder* at [GetchaBooks](http://getchabooks.com), LLC
 
     December 2009 - present
 
-    -   Conceived and built a course-based textbook shopping website supporting
-        over 1200 colleges.  Users select their courses, we look up their books
-        and find the cheapest way to buy them online.
+    -   Built a course-based textbook shopping website supporting over 1200
+        colleges.  Users specify their courses, we look up their required books
+        and find the best way to buy them online.
 
-    -   Designed and wrote most of the **PHP/MySQL** backend, using a custom
-        **MVC**, **Propel ORM**, and **Memcached**.
+    -   Wrote the **PHP/MySQL** backend, using a custom **MVC**, **Propel ORM**,
+        and **Memcached**.
 
-    -   Wrote multiple real-time piecemeal bookstore scrapers handling 
-        JavaScript and cookies.
+    -   Wrote real-time piecemeal bookstore scrapers handling JavaScript and
+        cookies.
 
-    -   Managed our **Linux** server.
+    -   Managed our **Linux**/**Apache** server.
+
+    -   Compiled our balance sheets.
 
 *   *Student Research Assistant* at [AIFB][], Karlsruhe Institute of Technology
 
     June 2010 - August 2010
 
     -   Designed and wrote [AskQ][], a **Semantic MediaWiki** extension that
-        translates plain-text user queries into structured semantic queries and
-        adds rudimentary faceted browsing to query results, using **PHP**,
+        translates plain-text queries into structured queries based on known
+        data and adds faceted browsing to query results, using **PHP**,
         **MySQL**, and **jQuery**.
 
 *   *Salesperson and Manager* at Boston Skyline, Inc.
@@ -39,7 +41,7 @@ Work Experience
 Education
 ---------
 
-*   *B.A. in Computer Science, Minor in Linguistics*, (GPA: 3.44) [Tufts University][], Medford, MA
+*   *B.A. in Computer Science, Minor in Linguistics*, [Tufts University][], Medford, MA
 
     (expected May 2012)
 
