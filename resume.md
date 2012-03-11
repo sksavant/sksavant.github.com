@@ -18,7 +18,7 @@ Work Experience
     -   Wrote real-time piecemeal bookstore scrapers handling JavaScript and
         cookies.
 
-    -   Managed our **Linux**/**Apache** server.
+    -   Managed our **Linux** server.
 
 *   *Student Research Assistant* at AIFB, Karlsruhe Institute of Technology
 
@@ -61,7 +61,4 @@ Skills
     **JavaScript**, **jQuery**, **Prolog**, **Lisp**, **Haskell**, **Java**,
     **Ruby**, **Bash**, **XSLT**, **LaTeX**, and **CSS**.
 
-*   Proficien in German, familiarity with Spanish, and ability and desire
-    to learn new languages.
-
-*   Creative, hard-working, good communicator, excellent writer.
+*   Proficient in **German**, familiar with **Spanish**.
