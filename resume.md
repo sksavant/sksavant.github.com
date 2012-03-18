@@ -4,30 +4,30 @@ Michael White \hfill <m@mwhite.info>
 Work Experience
 ---------------
 
-*   *Co-Founder and Backend Engineer* at [GetchaBooks][], LLC
+*   *Co-Founder* at [GetchaBooks](http://getchabooks.com), LLC
 
     December 2009 - present
 
-    -   Conceived and built a course-based textbook shopping website supporting
-        over 1200 colleges.  Users select their courses, we look up their books
-        and find the cheapest way to buy them online.
+    -   Built a course-based textbook shopping website supporting over 1200
+        colleges.  Users specify their courses, we look up their required books
+        and find the best way to buy them online.
 
-    -   Designed and wrote most of the **PHP/MySQL** backend, using a custom
-        **MVC**, **Propel ORM**, and **Memcached**.
+    -   Wrote the **PHP/MySQL** backend, using a custom **MVC**, **Propel ORM**,
+        and **Memcached**.
 
-    -   Wrote multiple real-time piecemeal bookstore scrapers handling 
-        JavaScript and cookies.
+    -   Wrote real-time piecemeal bookstore scrapers handling JavaScript and
+        cookies.
 
     -   Managed our **Linux** server.
 
-*   *Student Research Assistant* at [AIFB][], Karlsruhe Institute of Technology
+*   *Student Research Assistant* at AIFB, Karlsruhe Institute of Technology
 
     June 2010 - August 2010
 
-    -   Designed and wrote [AskQ][], a **Semantic MediaWiki** extension that
-        translates plain-text user queries into structured semantic queries and
-        adds rudimentary faceted browsing to query results, using **PHP**,
-        **MySQL**, and **jQuery**.
+    -   Designed and wrote [AskQ](http://www.mediawiki.org/wiki/Extension:AskQ),
+        a **Semantic MediaWiki** extension that translates plain-text queries
+        into structured queries based on known data and adds faceted browsing to
+        query results, using **PHP**, **MySQL**, and **jQuery**.
 
 *   *Salesperson and Manager* at Boston Skyline, Inc.
 
@@ -39,7 +39,7 @@ Work Experience
 Education
 ---------
 
-*   *B.A. in Computer Science, Minor in Linguistics*, (GPA: 3.44) [Tufts University][], Medford, MA
+*   *B.A. in Computer Science, Minor in Linguistics*, Tufts University, Medford, MA
 
     (expected May 2012)
 
@@ -47,7 +47,7 @@ Education
         languages, operating systems, web development, the semantic web,
         theory of computation, and artificial intelligence.
 
-    -   **C** and **C++** programming with **valgrind**, **gdb**, and **ddd**
+    -   **C** programming with **valgrind**, **gdb**, and **ddd**
 
     -   **Linguistics** and **philosophy** of mind
 
@@ -61,12 +61,4 @@ Skills
     **JavaScript**, **jQuery**, **Prolog**, **Lisp**, **Haskell**, **Java**,
     **Ruby**, **Bash**, **XSLT**, **LaTeX**, and **CSS**.
 
-*   Proficiency in German, familiarity with Spanish, and ability and desire
-    to learn new languages.
-
-*   Creative, hard-working, good communicator, excellent writer.
-
- [Getchabooks]: http://getchabooks.com
- [AIFB]: http://www.aifb.kit.edu
- [AskQ]: http://www.mediawiki.org/wiki/Extension:AskQ
- [Tufts University]: http://www.cs.tufts.edu
+*   Proficient in **German**, familiar with **Spanish**.
