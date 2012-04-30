@@ -57,5 +57,5 @@ Skills
 Interests
 ---------
 
-*   Tools for collective action, rethinking education, rethinking credentials,
-    open-sourcing society, life after cheap fossil fuels, music.
+*   Collective action, education, credentials, open source society, energy,
+    sustainable living, music.
