@@ -1,9 +1,6 @@
 Michael White \hfill <m@mwhite.info>
 ====================================
 
-A generalist developer seeking freelance work or a job in an early-stage startup
-related to my interests.
-
 Work Experience
 ---------------
 
@@ -15,7 +12,7 @@ Work Experience
         colleges.  Users specify their courses, we scrape their required books
         and present the best ways to buy them online.
 
-    -   Wrote the backend using PHP, MySQL, Propel ORM, and some Python.
+    -   Wrote the MVC backend using PHP, MySQL, Propel ORM, and some Python.
 
 *   *Student Research Assistant* at AIFB, Karlsruhe Institute of Technology
     
@@ -48,13 +45,12 @@ Skills
     experienced with Python and JavaScript. Familiar with C++, Prolog, Lisp,
     Haskell, Java, Ruby, Bash, XSLT, LaTeX, and CSS.
 
-*   Knowledgeable about theoretical linguistics and some computational
-    linguistics formalisms and tools.
+*   Knowledgeable about theoretical and computational linguistics.
 
 *   Proficient in German, familiar with Spanish.
 
 Interests
 ---------
 
-*   Free culture, education, credentials and reputation systems, ecology, energy,
-    music.
+*   Open source economics, credentials and reputation systems, tools for
+    collective decision-making and action, ecology, energy, music.
