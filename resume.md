@@ -1,56 +1,66 @@
-Michael White \hfill <m@mwhite.info>
-====================================
+Mike White
+==========
+
+m@mwhite.info • 28 Knollwood Rd., Medford, MA 02155 • (617) 899-1621
 
 Work Experience
 ---------------
 
-*   *Co-Founder* at [GetchaBooks LLC](http://getchabooks.com)
+*   **[GetchaBooks LLC][1]**
 
-    December 2009 - present
+    Co-Founder, December 2009 - present
 
-    -   Built a course-based textbook shopping website supporting over 1200
-        colleges.  Users specify their courses, we scrape their required books
-        and present the best ways to buy them online.
+    -   Built a website to help college students easily purchase their required
+        textbooks online
 
-    -   Wrote the MVC backend using PHP, MySQL, Propel ORM, and some Python.
+    -   Architected a RESTful MVC backend using PHP and MySQL
 
-*   *Student Research Assistant* at AIFB, Karlsruhe Institute of Technology
-    
-    June 2010 - August 2010
+    -   Wrote efficient, modular scrapers to extract information from bookstore
+        websites
 
-    -   Wrote [AskQ](http://www.mediawiki.org/wiki/Extension:AskQ), a Semantic
-        MediaWiki extension that translates plain-text queries into structured
-        queries based on existing structured data and adds faceted browsing to
-        query results using jQuery.
+    -   Administered a VPS running Linux and Apache
 
-*   *Salesperson and Manager* at Boston Skyline, Inc. 
+*   **AIFB, Karlsruhe Institute of Technology**
 
-    July 2008 - August 2010
+    Student Research Assistant, June 2010 - August 2010
 
-    -   Sold apparel at a busy pushcart retailer. Managed inventory, cashflow,
-        and employees.
+    -   Wrote [AskQ][2], a Semantic MediaWiki extension that uses known
+        structured data to interpret plain-text queries as structured queries
 
+    -   Added a faceted browsing interface on top of Semantic MediaWiki's semantic
+        search results page
+
+*   **Boston Skyline, Inc.**
+
+    Manager and Salesperson, July 2008 - August 2010
+
+    -   Managed inventory, cashflow, and employees at a busy pushcart retailer
+
+ [1]: http://www.getchbooks.com
+ [2]: http://www.mediawiki.org/wiki/Extension:AskQ
 
 Education
 ---------
 
-*   *B.S. in Computer Science*, Tufts University, Medford, MA
+*   **Tufts University, Medford, MA**
 
-    May 2012
+    B.S. in Computer Science, May 2012
 
 Skills
 ------
 
-*   Very experienced with Linux, PHP, C, MySQL, and MediaWiki. Moderately
-    experienced with Python and JavaScript. Familiar with C++, Prolog, Lisp,
-    Haskell, Java, Ruby, Bash, XSLT, LaTeX, and CSS.
+*   Very experienced with PHP, C, MySQL, and MediaWiki
 
-*   Knowledgeable about theoretical and computational linguistics.
+*   Moderately experienced with Python and JavaScript
 
-*   Proficient in German, familiar with Spanish.
+*   Familiar with C++, Prolog, Lisp, Haskell, Java, Ruby, Bash, XSLT, LaTeX, and CSS
+
+*   Knowledgeable about theoretical and computational linguistics
+
+*   Proficient in German, familiar with Spanish
 
 Interests
 ---------
 
-*   Open source economics, credentials and reputation systems, tools for
-    collective decision-making and action, ecology, energy, music.
+*   Economics of open source, credentials and reputation systems, collective
+    decision-making
