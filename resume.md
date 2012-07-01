@@ -1,7 +1,7 @@
 Mike White
 ==========
 
-m@mwhite.info • 28 Knollwood Rd., Medford, MA 02155 • (617) 899-1621
+m@mwhite.info • 28 Knollwood Rd., Medford, MA 02155 • (617) 899-1621 • github.com/mwhite
 
 Work Experience
 ---------------
