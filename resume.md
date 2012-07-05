@@ -30,8 +30,8 @@ Work Experience
         structured data to interpret plain-text queries as structured semantic
         queries
 
-    -   Added a faceted browsing interface on top of Semantic MediaWiki's semantic
-        search results page
+    -   Added a jQuery faceted browsing interface on top of Semantic MediaWiki's
+        semantic search results page
 
 *   **Boston Skyline, Inc.** (Boston, MA)
 
