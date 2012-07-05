@@ -59,7 +59,7 @@ Skills
 
 *   Moderately experienced with Python and JavaScript
 
-*   Familiar with C++, Prolog, Lisp, Haskell, Java, Ruby, Bash, XSLT, LaTeX, and CSS
+*   Familiar with C++, Prolog, Lisp, Haskell, Java, Ruby, Bash, XSLT, \LaTeX, and CSS
 
 *   Knowledgeable about theoretical and computational linguistics
 
