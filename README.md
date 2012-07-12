@@ -14,3 +14,6 @@ LaTeX.
 
 The default resumé font is Tex Gyre Pagella, which you can install with the
 Debian/Ubuntu package `tex-gyre`.
+
+The default resume.md contains boilerplate content.  Check out the `mwhite`
+branch for an actual resume.
