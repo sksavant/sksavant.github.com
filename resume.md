@@ -1,10 +1,9 @@
 John Q. Public
 ==============
 
-foo@bar.com
+foo@bar.com • (555) 867 5309
 123 Main St.
 Anytown, USA
-555 867 5309
 
 Work Experience
 ---------------

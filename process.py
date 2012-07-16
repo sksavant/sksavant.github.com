@@ -1,17 +1,23 @@
 # encoding: utf-8
 
 import sys
-import re
 
 lines = sys.stdin.readlines()
 
-for i, line in enumerate(list(lines[3:])):
-    stripped = line.strip()
-    if not stripped:
+# Contact details are expected to begin on the fourth line, following the
+# header and a blank line, and extend until the next blank line.  Lines with
+# bullets (•) will be split into separate lines.
+contact_lines = []
+for line in lines[3:]:
+    lines.remove(line)
+    parts = [x.strip() for x in line.split("•")]
+    if parts == ['']:
         break
-    lines[3 + i] = "\n%s\n" % stripped
+    
+    contact_lines.extend(parts)
 
-lines.insert(3,     "\\begin{nospace}\\begin{flushright}")
-lines.insert(4 + i, "\\end{flushright}\\end{nospace}\n")
+lines.insert(0, "\\begin{nospace}\\begin{flushright}\n" +
+                "\n\n".join(contact_lines) +
+                "\n\\end{flushright}\\end{nospace}\n")
 
 print "".join(lines)
