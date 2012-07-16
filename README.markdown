@@ -1,19 +1,26 @@
-This is a simple resume in Markdown.  You can create PDF and HTML versions by
-running `make` if you have the document processor
-[Pandoc](http://johnmacfarlane.net/pandoc/) installed.  You can modify
-resume.css to change the appearance of the HTML output and header.tex for the
-PDF output.
+This is a simple Markdown resumé template and LaTeX header that can be used with
+[Pandoc](http://johnmacfarlane.net/pandoc/) to create a professional-looking
+PDF.
 
-Pandoc >= 1.9 is assumed; you can modify the Makefile to change this.
+Dependencies
+------------
 
-In order to enable visually appealing display of contact information, a Python
-pre-processing script looks to see if the fourth line of the markdown input
-contains items separated by Unicode bullets; if it does, they are extracted and
-displayed in a right-aligned, zero-height box in the PDF output generated from
-LaTeX.
+* Pandoc >= 1.9 (you can adjust the Makefile to use an earlier version)
+* Python
+* The Tex Gyre Pagella font, available on Debian/Ubuntu from the `tex-gyre`
+  package
 
-The default resumé font is Tex Gyre Pagella, which you can install with the
-Debian/Ubuntu package `tex-gyre`.
+Usage
+-----
 
-The default resume.md contains boilerplate content.  Check out the `mwhite`
-branch for an actual resume.
+Simply run `make` to generate PDF and HTML versions of each .md file in the
+directory.
+
+In order to enable visually appealing display of contact information, the
+Markdown is passed through a Python script that looks for contact details
+beginning on the fourth line and moves them into a right-aligned, zero-height
+box at the top of the document.  Lines with bullets (•) will be treated as
+separate contact lines in the output.
+
+The included resume.md contains boilerplate content.  Take a look at the
+`mwhite` branch for an actual resume.
