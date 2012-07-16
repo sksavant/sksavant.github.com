@@ -5,14 +5,13 @@ import re
 
 lines = sys.stdin.readlines()
 
-name = lines[0]
-contact = [x.strip() for x in lines[3].split("•")]
+for i, line in enumerate(list(lines[3:])):
+    stripped = line.strip()
+    if not stripped:
+        break
+    lines[3 + i] = "\n%s\n" % stripped
 
-if len(contact) > 1:
-    lines.pop(3)
-    lines.pop(3)
-    lines.insert(0, "\\begin{nospace}\\begin{flushright}\n" +
-                    "\n\n".join(contact) +
-                    "\\end{flushright}\\end{nospace}\n")
+lines.insert(3,     "\\begin{nospace}\\begin{flushright}")
+lines.insert(4 + i, "\\end{flushright}\\end{nospace}\n")
 
 print "".join(lines)
