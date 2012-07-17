@@ -16,8 +16,17 @@ for line in lines[3:]:
     
     contact_lines.extend(parts)
 
-lines.insert(0, "\\begin{nospace}\\begin{flushright}\n" +
-                "\n\n".join(contact_lines) +
-                "\n\\end{flushright}\\end{nospace}\n")
+if '--tex' in sys.argv: 
+    lines.insert(0, "\\begin{nospace}\\begin{flushright}\n" +
+                    "\n\n".join(contact_lines) +
+                    "\n\\end{flushright}\\end{nospace}\n")
 
-print "".join(lines)
+    print "".join(lines)
+
+if '--html' in sys.argv:
+    lines.insert(0, "<div id='container'><div id='contact'>%s</div>\n" %
+                        "<br>".join(contact_lines))
+    lines.insert(1, "<div>")
+    lines.append("</div>")
+
+    print "".join(lines)

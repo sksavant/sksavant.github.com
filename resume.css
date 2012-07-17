@@ -1,15 +1,23 @@
 body {
+    background: #FBFBFB;
+    color: #333;
+    font-family: Verdana, sans-serif;
+}
+
+#container {
 	margin: auto;
 	width: 7.5in;
 	padding: .5in;
-	font-family: helvetica, Verdana, sans-serif;
-	color: #333;
-	background: #FBFBFB;
 }
 
-* {
-	clear: both;
+#contact {
+    float: right;
+    text-align: right;
 }
+
+/** {
+	clear: both;
+}*/
 a {
 	text-decoration: none;
 	color: #333;
@@ -19,10 +27,14 @@ a:hover {
 	text-decoration: underline;
 }
 
+h1 {
+    margin-top: 0;
+}
+
 h2 {
-	margin-top:0;
+	margin-top: 0;
 }
 
 li {
-	margin-top: .2em;
+	margin-top: 0em;
 }
