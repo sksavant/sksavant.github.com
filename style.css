@@ -292,7 +292,7 @@ ul h4 {
 	padding: 45px 45px 15px 45px;
 	position: relative;
 	width: 890px;
-	margin: 0;
+	margin: 75px auto 0 auto;
 }
 
 #page .section-list {
@@ -321,7 +321,7 @@ ul h4 {
 
 #page-bottom {
 	position: relative;
-	margin: 0;
+	margin: 75px auto 0 auto;
 	background: #6E6E6E url(images/img03.jpg) top left no-repeat;
 	border: solid 1px #7E7E7E;
 	width: 888px;
