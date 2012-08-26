@@ -112,6 +112,8 @@ ul h4 {
 
 #content-box1 {
 	width: 320px;
+	height: 450px;
+	overflow: auto;
 	float: left;
 }
 
