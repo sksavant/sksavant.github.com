@@ -120,6 +120,8 @@ ul h4 {
 #content-box2 {
 	margin: 0 0 0 345px;
 	width: 320px;
+	height: 450px;
+	overflow: auto
 }
 
 #footer {
@@ -383,6 +385,8 @@ ul h4 {
 	width: 200px;
 	padding: 0;
 	margin: 0 0 0 690px;
+	height: 600px;
+	overflow: auto;
 }
 
 #slider {
