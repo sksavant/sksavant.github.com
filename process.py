@@ -21,7 +21,7 @@ if '--tex' in sys.argv:
                     "\n\n".join(contact_lines) +
                     "\n\\end{flushright}\\end{nospace}\n")
 
-    print "".join(lines)
+    print "".join(lines).replace('~', '$\sim$')
 
 if '--html' in sys.argv:
     lines.insert(0, "<div id='container'><div id='contact'>%s</div>\n" %
