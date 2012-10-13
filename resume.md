@@ -1,65 +1,77 @@
-John Q. Public
-==============
+Markdown Resumé
+===============
 
-foo@bar.com • (555) 867 5309
-123 Main St.
-Anytown, USA
+Markdown -> PDF, HTML, and more
+custom per-format pre-processors
+\href{http://github.com/mwhite/resume}{http://github.com/mwhite/resume}
 
 Work Experience
 ---------------
 
-*   **An Employer** (Some Place)
+*   **Markdown with Pandoc**
 
-    Job Title, December 2009 - present
+    Resumé Architect, February 2011 - present
 
-    -   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
+    -   Write in one format (Markdown), convert to many formats (PDF, HTML, .odt,
+        .docx, and more)
 
-    -   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-        ut aliquip ex ea commodo consequat.
+    -   Style your HTML with CSS and your PDF with a custom \LaTeX\ header
 
-    -   Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-        dolore eu fugiat nulla pariatur. 
+    -   Uses `resume.py`, a simple pre-processor that lets you extract parts of
+        the Markdown and define per-format operations on these parts.  For
+        example, extract the contact info and put it in a right-aligned block in
+        the top right in both HTML and PDF (\LaTeX).
 
-*   **Another Employer** (Another Place)
+    -   You get a text-based resumé for free if you need one in a pinch for a web
+        form somewhere
 
-    Job Title, June 2010 - August 2010
+    -   Maintain different contexts of your resumé on different Github branches
 
-    -   Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-        officia deserunt mollit anim id est laborum
+*   **LinkedIn, StackOverflow Careers**
 
-    -   Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-        accusantium doloremque laudantium
+    Resumé Intern, August 2010
 
-*   **Yet Another Employer** (Somewhere)
+    -   PDF export is not very customizable
 
-    Job Title, 2007 - 2009
+    -   Lots of stuff you don't want or need
 
-    -   Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-        fugit
+*   **LaTeX + pdflatex**
 
-    -   Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
-        consectetur, adipisci velit
+    Senior Resumé Maker, 2008 - 2010
+
+    -   Lots of markup obscures your content, even if it is largely semantic
+        instead of presentational
+
+    -   The best-looking \LaTeX\ resumés require unusual TeX setups
+
+*   **Word Processor** (Redmond, WA)
+
+    Junior Resumé Maker, 2006 - 2007
+
+    -   No separation of presentation and content
+
+    -   Have to "print to PDF" anyway
+
+    -   Styling is a pain, so you either don't do it or find a half-decent
+        template and don't mess with it
+
 
 Education
 ---------
 
-*   **Some University** (Some Place)
+*   **Github University** (World Wide Web)
 
-    B.S. in Something, May 2012
+    B.S. in Submodules, May 2012
 
 Skills
 ------
 
-*   Very experienced with blah blah blah
+*   Very experienced with Python, Markdown, \LaTeX
 
-*   Moderately experienced with blah blah blah blah
-
-*   Familiar with blah, blah, blah
-
+*   Familiar with GNU Make, bash
 
 Interests
 ---------
 
-*   Blah blah blah. Blah blah blah blah. Blah blah.
+*   Minimalist but versatile resumés with style
 
