@@ -92,6 +92,14 @@ def tex(lines, contact_lines, *args):
 
 @processor.register
 def html(lines, contact_lines, *args):
+    untex = ['LaTeX']
+
+    for word in untex:
+        # yuck
+        replace = lambda l: l.replace(r"\%s" % word, word)
+        lines = map(replace, lines)
+        contact_lines = map(replace, contact_lines)
+
     lines.insert(0, "<div id='container'><div id='contact'>%s</div>\n" %
                         "<br>".join(contact_lines))
     lines.insert(1, "<div>")
