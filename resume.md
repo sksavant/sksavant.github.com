@@ -1,59 +1,64 @@
 Markdown Resumé
 ===============
 
-Markdown -> PDF, HTML, and more
-custom per-format pre-processors
-\href{http://github.com/mwhite/resume}{http://github.com/mwhite/resume}
+[Markdown](https://raw.github.com/mwhite/resume/master/resume.md) -> [PDF](https://raw.github.com/mwhite/resume/master/resume.pdf), HTML, and more
+<http://github.com/mwhite/resume>
+
+Interests
+---------
+
+*   Creating beautiful resumés from simple Markdown documents
+
 
 Work Experience
 ---------------
-
-*   **Markdown with Pandoc**
-
-    Resumé Architect, February 2011 - present
-
-    -   Write in one format (Markdown), convert to many formats (PDF, HTML, .odt,
-        .docx, and more)
-
-    -   Style your HTML with CSS and your PDF with a custom \LaTeX\ header
-
-    -   Uses `resume.py`, a simple pre-processor that lets you extract parts of
-        the Markdown and define per-format operations on these parts.  For
-        example, extract the contact info and put it in a right-aligned block in
-        the top right in both HTML and PDF (\LaTeX).
-
-    -   You get a text-based resumé for free if you need one in a pinch for a web
-        form somewhere
-
-    -   Maintain different contexts of your resumé on different Github branches
-
-*   **LinkedIn, StackOverflow Careers**
-
-    Resumé Intern, August 2010
-
-    -   PDF export is not very customizable
-
-    -   Lots of stuff you don't want or need
-
-*   **LaTeX + pdflatex**
-
-    Senior Resumé Maker, 2008 - 2010
-
-    -   Lots of markup obscures your content, even if it is largely semantic
-        instead of presentational
-
-    -   The best-looking \LaTeX\ resumés require unusual TeX setups
 
 *   **Word Processor** (Redmond, WA)
 
     Junior Resumé Maker, 2006 - 2007
 
-    -   No separation of presentation and content
+    -   Intermingled presentation and content
 
-    -   Have to "print to PDF" anyway
+    -   Styling was a pain, so either didn't do it or found a half-decent
+        template and didn't mess with it
 
-    -   Styling is a pain, so you either don't do it or find a half-decent
-        template and don't mess with it
+*   **\LaTeX\ + pdflatex**
+
+    Senior Resumé Maker, 2008 - 2010
+
+    -   Edited verbose \LaTeX\ documents in a text editor
+    
+    -   Mixed content and presentation to achieve pixel-perfection
+
+    -   Installed and configured the unusual TeX setups required by the
+        best-looking \LaTeX\ resumés
+
+*   **LinkedIn, StackOverflow Careers, vizualize.me, etc**
+
+    Web Resumé Intern, August 2010
+
+    -   Entered data, adapting to different data models and formatting
+        limitations
+
+    -   Attempted to customize PDF exports and remove default resumé elements,
+        to no avail
+
+*   **Markdown with Pandoc**
+
+    Resumé Architect, February 2011 - present
+
+    -   Write in one format (Markdown), convert to many formats (PDF, HTML, ODT,
+        DOCX, and more)
+
+    -   Style HTML output with CSS and PDF output with a custom \LaTeX\ header
+
+    -   Use a simple pre-processor to define per-format operations on the
+        Markdown input or its parts, such as moving contact information to the
+        top right of the page in both HTML and PDF output.
+
+    -   Use a text-based resumé when needed in a pinch
+
+    -   Use version control, including free hosting on Github
 
 
 Education
@@ -63,6 +68,7 @@ Education
 
     B.S. in Submodules, May 2012
 
+
 Skills
 ------
 
@@ -70,8 +76,4 @@ Skills
 
 *   Familiar with GNU Make, bash
 
-Interests
----------
-
-*   Minimalist but versatile resumés with style
 
