@@ -101,7 +101,7 @@ def html(lines, contact_lines, *args):
         contact_lines = map(replace, contact_lines)
 
     lines.insert(0, "<div id='container'><div id='contact'>%s</div>\n" %
-                        "<br>".join(contact_lines))
+                         ("<p>" + "<p>".join(contact_lines)))
     lines.insert(1, "<div>")
     lines.append("</div>")
 
