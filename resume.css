@@ -5,31 +5,33 @@ body {
 }
 
 #container {
-	margin: auto;
-	width: 7.5in;
-	padding: .5in;
+    margin: auto;
+    width: 7.5in;
+    padding: .5in;
 }
 
 #contact {
     float: right;
     text-align: right;
-    /*margin-top: -5px;*/
 }
 
 #contact p {
     margin: .5em;
-} 
-
-/** {
-	clear: both;
-}*/
-a {
-	text-decoration: none;
-	color: #333;
 }
-        
+
+img {
+    padding: 4px;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
 a:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 h1 {
@@ -37,7 +39,7 @@ h1 {
 }
 
 h2 {
-	margin-top: 0;
+    margin-top: 0;
 }
 
 ul {
@@ -50,7 +52,7 @@ ul li ul {
 }
 
 li {
-	margin-top: 0em;
+    margin-top: 0em;
 }
 
 ul li ul li {

@@ -39,8 +39,12 @@ And finally run it like this:
     python resume.py tex < resume.md
 
 """
+import hashlib
 import sys
 import re
+
+
+GRAVATAR = "http://www.gravatar.com/avatar/{hash}?s=200"
 
 
 class Processor(object):
@@ -81,7 +85,7 @@ def tex(lines, contact_lines, *args):
 
         return re.sub(pattern, r"\1\2%s\%d" % (repl, num_groups + 3), string,
                       flags=flags, **kwargs)
-    
+
     # pandoc doesn't seem to support markdown inside latex blocks, so we're
     # just going to hardcode the two most common link formats for now so people
     # can put links in their contact info
@@ -89,7 +93,7 @@ def tex(lines, contact_lines, *args):
         line = re.sub(r"<([^:]+@[^:]+?)>", r"\href{mailto:\1}{\1}", line)
         line = re.sub(r"<(http.+?)>", r"\url{\1}", line)
         return re.sub(r"\[([^\]]+)\]\(([^\)]+)\)", r"\href{\2}{\1}", line)
-    
+
     contact_lines = "\n\n".join(map(replace_links, contact_lines))
 
     # replacements to apply to the text in contact_lines, because it won't be
@@ -121,6 +125,15 @@ def html(lines, contact_lines, *args):
         replace = lambda l: l.replace(r"\%s" % word, word)
         lines = map(replace, lines)
         contact_lines = map(replace, contact_lines)
+
+    gravatar = None
+    for line in contact_lines:
+        if line.find("@") > 0:
+            gravatar = GRAVATAR.format(
+                hash=hashlib.md5(line.lower().strip('<>')).hexdigest())
+            break
+    if gravatar is not None:
+        contact_lines.insert(0, "<img src='{}' />".format(gravatar))
 
     lines.insert(0, "<div id='container'><div id='contact'>%s</div>\n" %
                          ("<p>" + "</p><p>".join(contact_lines) + "</p>"))
