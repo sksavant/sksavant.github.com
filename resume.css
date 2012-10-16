@@ -40,6 +40,15 @@ h2 {
 	margin-top: 0;
 }
 
+ul {
+    list-style-type: none;
+}
+
+ul li ul {
+    list-style-type: disc;
+    margin-bottom: 2em;
+}
+
 li {
 	margin-top: 0em;
 }
