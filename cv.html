@@ -3,8 +3,45 @@
 <head>
 	<title>Savant Krishna - Homepage , EE Dept, IIT Bombay</title>
 	<link rel="stylesheet" type="text/css" href="style.css" />
- 
+<STYLE type="text/css">
+.li-itemize{margin:1ex 0ex;}
+.li-enumerate{margin:1ex 0ex;}
+.dd-description{margin:0ex 0ex 1ex 4ex;}
+.dt-description{margin:0ex;}
+.toc{list-style:none;}
+.thefootnotes{text-align:left;margin:0ex;}
+.dt-thefootnotes{margin:0em;}
+.dd-thefootnotes{margin:0em 0em 0em 2em;}
+.footnoterule{margin:1em auto 1em 0px;width:50%;}
+.caption{padding-left:2ex; padding-right:2ex; margin-left:auto; margin-right:auto}
+.title{margin:2ex auto;text-align:center}
+.center{text-align:center;margin-left:auto;margin-right:auto;}
+.flushleft{text-align:left;margin-left:0ex;margin-right:auto;}
+.flushright{text-align:right;margin-left:auto;margin-right:0ex;}
+DIV TABLE{margin-left:inherit;margin-right:inherit;}
+PRE{text-align:left;margin-left:0ex;margin-right:auto;}
+BLOCKQUOTE{margin-left:4ex;margin-right:4ex;text-align:left;}
+TD P{margin:0px;}
+.boxed{border:1px solid black}
+.textboxed{border:1px solid black}
+.vbar{border:none;width:2px;background-color:black;}
+.hbar{border:none;height:2px;width:100%;background-color:black;}
+.hfill{border:none;height:1px;width:200%;background-color:black;}
+.vdisplay{border-collapse:separate;border-spacing:2px;width:auto; empty-cells:show; border:2px solid red;}
+.vdcell{white-space:nowrap;padding:0px;width:auto; border:2px solid green;}
+.display{border-collapse:separate;border-spacing:2px;width:auto; border:none;}
+.dcell{white-space:nowrap;padding:0px;width:auto; border:none;}
+.dcenter{margin:0ex auto;}
+.vdcenter{border:solid #FF8000 2px; margin:0ex auto;}
+.minipage{text-align:left; margin-left:0em; margin-right:auto;}
+.marginpar{border:solid thin black; width:20%; text-align:left;}
+.marginparleft{float:left; margin-left:0ex; margin-right:1ex;}
+.marginparright{float:right; margin-left:1ex; margin-right:0ex;}
+.theorem{text-align:left;margin:1ex auto 1ex 0ex;}
+.part{margin:2ex auto;text-align:center}
+</STYLE> 
 </head>
+
 
 <body>
 	<div id="wrapper">
@@ -28,9 +65,125 @@
 		</div>
 	
 	
-	
+	<!--			<embed src="resume.pdf"  width="100%" height="2300px"></embed> -->
 	<div id="resume">
-			<embed src="new100070056-1.pdf"  width="100%" height="2300px"></embed>
+	<p > 
+	<center><h1>RESUME</h1></br> For a pdf version click <a href="resume.pdf">here</a></center>
+	</p>
+	</P><DIV CLASS="minipage"><SPAN STYLE="background-color:#E5E5E5"><B><FONT SIZE=4>Research Interests</FONT></B></SPAN><SPAN STYLE="background-color:#E5E5E5"><B> </B></SPAN><SPAN STYLE="background-color:#E5E5E5"></SPAN></DIV><P>
+
+</P><UL CLASS="itemize"><LI CLASS="li-itemize"> 
+Digital Electronics, VLSI Design, High Level Synthesis
+</LI><LI CLASS="li-itemize">Robotics, Artificial Intelligence (Planning and Localization)
+</LI></UL><DIV CLASS="minipage"><SPAN STYLE="background-color:#E5E5E5"><B><FONT SIZE=4>Current Projects</FONT></B></SPAN><SPAN STYLE="background-color:#E5E5E5"><B> </B></SPAN><SPAN STYLE="background-color:#E5E5E5"></SPAN></DIV><UL CLASS="itemize"><LI CLASS="li-itemize">
+<B>AUVSI Robosub 2013, San Deigo, CA</B> <EM>(September 2012 to Present) </EM><BR>
+
+	Designing and developing an unmanned autonomous underwater vehicle (AUV) that localizes itself and performs realistic missions based on feedback form visual, inertial, acoustic and depth sensors using thrusters/propellers [<A HREF="http://auv-iitb.org"><TT>http://auv-iitb.org</TT></A>]
+<UL CLASS="itemize"><LI CLASS="li-itemize">
+Working with the software sub-division on localization and navigation of the vehicle by
+fusing various sensor data using kalman filtering and updating the motion controller
+</LI><LI CLASS="li-itemize">Using ROS (Robot Operating System) architecture to integrate several parts of the system
+</LI></UL>
+</LI><LI CLASS="li-itemize"><B> High Level Synthesis using Legup</B> <EM>(Guided by Prof. S. Patkar, September 2012 to Present) </EM><BR>
+
+<UL CLASS="itemize"><LI CLASS="li-itemize"> 
+	Working under High Power Computing Lab, EE Dept. on HLS to implement a memory model using stacks or queues to improve the synthesis of specific applications with regular and iterative algorithms to hardware
+	</LI><LI CLASS="li-itemize">Building up on legup infrastructure to analyze different high level synthesis techniques
+</LI></UL>
+
+</LI></UL><DIV CLASS="minipage"><SPAN STYLE="background-color:#E5E5E5"><B><FONT SIZE=4>Google Summer of Code - GSoC’12</FONT></B></SPAN><SPAN STYLE="background-color:#E5E5E5"><B> </B></SPAN><SPAN STYLE="background-color:#E5E5E5"></SPAN></DIV><P>
+</P><P> Worked on a FOSS project <B>Gnucap plugin for schematic files</B> <EM>(May 2012 to August 2012)</EM><BR>
+
+</P><UL CLASS="itemize"><LI CLASS="li-itemize">
+Worked with the organisation ’GNU Project’ on the project ’Gnucap’ (GNU Circuit Analysis Package) under the mentorship of Albert Davis. [<A HREF="http://gnucap.org"><TT>http://gnucap.org</TT></A>]<BR>
+
+</LI><LI CLASS="li-itemize">My work involved the following :
+<UL CLASS="itemize"><LI CLASS="li-itemize"> 
+Reading through the existing codebase to understand it 
+</LI><LI CLASS="li-itemize">Figuring a way to map schematic file to Verilog-AMS and vice-versa
+</LI><LI CLASS="li-itemize">Implementing a plugin which will import a schematic file and convert into a Verilog-AMS netlist and also export an existing circuit in schematic format</LI></UL>
+</LI></UL><DIV CLASS="minipage"><SPAN STYLE="background-color:#E5E5E5"><B><FONT SIZE=4>Key Academic Projects</FONT></B></SPAN><SPAN STYLE="background-color:#E5E5E5"><B> </B></SPAN><SPAN STYLE="background-color:#E5E5E5"></SPAN></DIV><P>
+
+</P><UL CLASS="itemize"><LI CLASS="li-itemize">
+<B>Technology Mapping - VLSI CAD</B> <EM>(In Progress)</EM> <EM>(Guided by Prof. S.Patkar, EE677 - Autumn 2012)</EM><BR>
+
+<UL CLASS="itemize"><LI CLASS="li-itemize">
+Modeling the problem of technology mapping as a tree covering problem using pattern trees of the library gates.
+</LI><LI CLASS="li-itemize">Implementing using python graph-tool library
+</LI></UL>
+</LI><LI CLASS="li-itemize"><B>Traveling Message Display</B> <EM>(Guided by Prof. M.B.Patil and J.John, EE214- Spring 2012)</EM><BR>
+
+<UL CLASS="itemize"><LI CLASS="li-itemize">
+Worked in a team of 3 members
+</LI><LI CLASS="li-itemize">Display a scrolling message taken using keypad on an LED Array
+</LI><LI CLASS="li-itemize">Used an FPGA board: DE0 NANO and programmed using Verilog-HDL
+</LI><LI CLASS="li-itemize">My work involved writing verilog modules for taking input from the keypad and processing
+</LI></UL>
+	</LI><LI CLASS="li-itemize"><B>Simulation of Micromouse</B> <EM>(Guided by Prof.Deepak B. Phatak, CS101 - Autumn 2010)</EM><BR>
+
+	<UL CLASS="itemize"><LI CLASS="li-itemize">
+	 Led the team of 12 members with 3 subteams of 4 members each
+	 </LI><LI CLASS="li-itemize">Designed n×n mazes, Solved them for the shortest path using Bellman-ford algorithm in C++ and Simulated the solution using EzWindows GUI.
+	 </LI><LI CLASS="li-itemize">My work involved programming the display over GUI and interlinking the different parts
+	</LI></UL> 
+
+</LI></UL><DIV CLASS="minipage"><SPAN STYLE="background-color:#E5E5E5"><B><FONT SIZE=4>Scholastic Achievements</FONT></B></SPAN><SPAN STYLE="background-color:#E5E5E5"><B> </B></SPAN><SPAN STYLE="background-color:#E5E5E5"></SPAN></DIV><P>
+
+</P><UL CLASS="itemize"><LI CLASS="li-itemize">
+<B>All India Rank 61</B> in IIT-JEE (Joint Entrance Examination) - 2010 of 0.455 million students<BR>
+
+
+
+</LI><LI CLASS="li-itemize">Awarded <B>Certificate of Merit</B> by Central Board of Secondary Education (<B>CBSE</B>) for being among <B>top 0.1 %</B> in ’Science’ and ’Social Science’ in All India Secondary School Examination - 2008.<BR>
+
+
+</LI><LI CLASS="li-itemize">Secured <B>AIR 15</B> in 10th National Science Olympiad (NSO) - 2007 conducted by<BR>
+Science Olympiad Foundation(SOF).
+</LI></UL><DIV CLASS="minipage"><SPAN STYLE="background-color:#E5E5E5"><B><FONT SIZE=4>Technical Skills</FONT></B></SPAN><SPAN STYLE="background-color:#E5E5E5"><B> </B></SPAN><SPAN STYLE="background-color:#E5E5E5"></SPAN></DIV><P>
+
+</P><UL CLASS="itemize"><LI CLASS="li-itemize">
+<B>Programming Languages</B>: C++,Java,Python,Ruby <B>Operating Systems</B>: Ubuntu, Windows<BR>
+
+</LI><LI CLASS="li-itemize"><B>Tools</B>: Latex Scilab, Mathematica , Photoshop<B>Web development</B>: HTML, CSS, JS, Django<BR>
+
+</LI><LI CLASS="li-itemize"><B>EE tools</B>: ngspice, gnucap, gEDA tools, Eagle, Verilog-HDL, Verilog-AMS, Icarus verilog<BR>
+     Bluespec System Verilog (BSV), Modelsim, Altera Quartus
+</LI></UL><DIV CLASS="minipage"><SPAN STYLE="background-color:#E5E5E5"><B><FONT SIZE=4>Technical Activities</FONT></B></SPAN><SPAN STYLE="background-color:#E5E5E5"><B> </B></SPAN><SPAN STYLE="background-color:#E5E5E5"></SPAN></DIV><P>
+
+</P><UL CLASS="itemize"><LI CLASS="li-itemize">
+
+Yahoo! HackU -2012: Built an android app and web interface, ’MapIt’ which can be used to create customizable maps of localities with greater information<BR>
+
+</LI><LI CLASS="li-itemize">Line-follower competition-2011 : Designed and built a line-following bot using IR sensors and coding the microcontroller using Arduino software<BR>
+
+</LI><LI CLASS="li-itemize">Trackmania-2010 : Built a remote-controlled four-wheeled car (bot).
+</LI></UL><DIV CLASS="minipage"><SPAN STYLE="background-color:#E5E5E5"><B><FONT SIZE=4>Extra Curricular Activities and Achievements</FONT></B></SPAN><SPAN STYLE="background-color:#E5E5E5"><B> </B></SPAN><SPAN STYLE="background-color:#E5E5E5"></SPAN></DIV><P>
+
+</P><UL CLASS="itemize"><LI CLASS="li-itemize">
+Participated in <B>Unnati</B>, the <B>NSS</B> (National Service Scheme) group of IIT Bombay.
+	<UL CLASS="itemize"><LI CLASS="li-itemize"> 
+	 Has been involved with the <B>GRA</B> (Group for Rural Activities) as part of curriculum in I year<BR>
+
+	 </LI><LI CLASS="li-itemize">Went to Village trips in Autumn 2010 and Spring 2011.<BR>
+
+	 </LI><LI CLASS="li-itemize">Continued as a voluntary member of the NSS Team in the subsequent year.
+	 </LI></UL>
+</LI><LI CLASS="li-itemize">Worked as ’Organiser’ in <B>Techfest-2011</B> in the Lecture Series department.<BR>
+
+</LI><LI CLASS="li-itemize">Participated in the Inter-hostel Hockey GC. 
+</LI></UL><P>
+	</P><DIV CLASS="minipage"><SPAN STYLE="background-color:#E5E5E5"><B><FONT SIZE=4>Additional Courses taken / currently taking</FONT></B></SPAN><SPAN STYLE="background-color:#E5E5E5"><B> </B></SPAN><SPAN STYLE="background-color:#E5E5E5"></SPAN></DIV><P>
+
+</P><UL CLASS="itemize"><LI CLASS="li-itemize">
+Foundations of VLSI CAD 
+</LI><LI CLASS="li-itemize">Artificial Intelligence 
+</LI><LI CLASS="li-itemize">Data Structures and Algorithms 
+</LI><LI CLASS="li-itemize">Discrete Structures
+</LI><LI CLASS="li-itemize">Introduction to Quantum Mechanics
+</LI><LI CLASS="li-itemize">First Course in Optimisation
+</LI></UL><!--CUT END -->
+<!--HTMLFOOT-->
+
 	</div>	
 	
 	<div id="footer">
