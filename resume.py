@@ -129,7 +129,7 @@ def html(lines, contact_lines, *args):
 
     gravatar = None
     for line in contact_lines:
-        if line.find("@") > 0:
+        if '@' in line and '--no-gravatar' not in args:
             gravatar = GRAVATAR.format(
                 hash=hashlib.md5(line.lower().strip('<>')).hexdigest())
             break
@@ -149,6 +149,11 @@ def main():
         format = sys.argv[1]
     except IndexError:
         raise Exception("No format specified")
+
+    if '-h' in sys.argv or '--help' in sys.argv:
+        sys.stderr.write(
+            "Usage: python resume.py tex|html [--no-gravatar] < INPUT.md\n")
+        raise SystemExit
 
     lines = sys.stdin.readlines()
 
