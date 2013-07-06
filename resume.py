@@ -81,7 +81,8 @@ def tex(lines, contact_lines, *args):
             ([^{}\n\r]*)
         """ % pattern
 
-        repl = re.sub(r"\\(\d)", lambda m: r"\%d" % (int(m.group(1)) + 2), repl)
+        repl = re.sub(r"\\(\d)",
+                      lambda m: r"\%d" % (int(m.group(1)) + 2), repl)
 
         return re.sub(pattern, r"\1\2%s\%d" % (repl, num_groups + 3), string,
                       flags=flags, **kwargs)
@@ -128,7 +129,7 @@ def html(lines, contact_lines, *args):
 
     gravatar = None
     for line in contact_lines:
-        if line.find("@") > 0:
+        if '@' in line and '--no-gravatar' not in args:
             gravatar = GRAVATAR.format(
                 hash=hashlib.md5(line.lower().strip('<>')).hexdigest())
             break
@@ -136,7 +137,7 @@ def html(lines, contact_lines, *args):
         contact_lines.insert(0, "<img src='{}' />".format(gravatar))
 
     lines.insert(0, "<div id='container'><div id='contact'>%s</div>\n" %
-                         ("<p>" + "</p><p>".join(contact_lines) + "</p>"))
+                 ("<p>" + "</p><p>".join(contact_lines) + "</p>"))
     lines.insert(1, "<div>")
     lines.append("</div>")
 
@@ -148,6 +149,11 @@ def main():
         format = sys.argv[1]
     except IndexError:
         raise Exception("No format specified")
+
+    if '-h' in sys.argv or '--help' in sys.argv:
+        sys.stderr.write(
+            "Usage: python resume.py tex|html [--no-gravatar] < INPUT.md\n")
+        raise SystemExit
 
     lines = sys.stdin.readlines()
 
