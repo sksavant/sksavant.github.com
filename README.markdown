@@ -7,7 +7,7 @@ Dependencies
 
 * Pandoc >= 1.9 (you can adjust the Makefile to use an earlier version -- the
   arguments format changed)
-* Python
+* Python 2
 * A Tex installation with pdflatex and the Tex Gyre Pagella font, and some
   packages needed by pandoc.  On Ubuntu you can get this by installing
   `texlive`, `texlive-latex-extra`, and `tex-gyre`.
