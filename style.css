@@ -112,7 +112,7 @@ ul h4 {
 
 #content-box1 {
 	width: 320px;
-	height: 450px;
+	height: 550px;
 	overflow: auto;
 	float: left;
 }
@@ -120,8 +120,9 @@ ul h4 {
 #content-box2 {
 	margin: 0 0 0 345px;
 	width: 320px;
-	height: 450px;
-	overflow: auto
+	height: 550px;
+	overflow: hidden;
+	text-align: center
 }
 
 #footer {
@@ -385,7 +386,7 @@ ul h4 {
 	width: 200px;
 	padding: 0;
 	margin: 0 0 0 690px;
-	height: 600px;
+	height: 700px;
 	overflow: auto;
 }
 
