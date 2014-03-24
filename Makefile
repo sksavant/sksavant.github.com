@@ -1,5 +1,7 @@
 SRC = $(wildcard *.md)
 
+GRAVATAR_OPTION="--no-gravatar"
+
 PDFS=$(SRC:.md=.pdf)
 HTML=$(SRC:.md=.html)
 LATEX_TEMPLATE=./pandoc-templates/default.latex
