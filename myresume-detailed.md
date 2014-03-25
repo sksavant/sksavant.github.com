@@ -111,3 +111,30 @@ Skills
 *   ROS, OpenCV, PCL
 
 
+References
+------
+
+* <!--- References list --->
+    -   Sebastian Scherer,
+
+        Systems Scientist,
+
+        Robotics Institute, CMU
+
+        <!---basti@andrew.cmu.edu-->
+
+    -   Leena Vachhani,
+
+        Professor,
+
+        Systems and Control Engg., IIT Bombay 
+
+        <!---leena@sc.iitb.ac.in--->
+
+    -   Sachin Patkar,
+
+        Professor,
+
+        Electrical Engg., IIT Bombay
+
+        <!---patkar@ee.iitb.ac.in--->
