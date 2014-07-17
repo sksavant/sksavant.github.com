@@ -1,4 +1,4 @@
-Savant Krishna
+Krishna Savant Syreddy
 ===============
 
 <http://www.sksavant.net>
@@ -8,21 +8,26 @@ Savant Krishna
 
 <!--- +1-424-336-6685 --->
 
+<!---
+
 Research Interests
 ---------
+--->
 
 <!--- Specific areas #TODO --->
 
+<!---
 *   Computer Vision : 3D Perception and Modeling
 *   Robotics : Planning and Control
 
+--->
 
 Education
 ---------
 
 *   **Indian Institute of Technology (IIT) Bombay** (Mumbai, India)
 
-    B.Tech. in Electrical Engineering, _August 2014_
+    B.Tech. in Electrical Engineering, _July 2014_
 
     - Control Systems
     - Artificial Intelligence
@@ -37,6 +42,14 @@ Education
 
 Work Experience
 ---------------
+
+*  **Multiview Registration of PointClouds**
+
+    Google Summer of Code 2014, Point Cloud Library (PCL), _May 2014 - Jul 2014_
+
+    - PCL is an OpenSource 3D Computer Vision processing library.
+
+    - The project extends the functionality of pcl::registration by adding algorithms for automatic multiview registration from unordered views.
 
 *   **Analyzing Point Clouds : Bridge Analysis Project** (Pittsburgh, PA)
 
@@ -74,6 +87,7 @@ Projects
 
         - I have worked on the control system and testing framework of the vehicle
 
+<!-- 
 *   **Gait Analysis with monocular camera**, _Feb 2014 - Mar 2014_
 
     - The project involves measuring the parameters describing the quality of walking of a person which can be used in physiotherapy. A monocular camera is mounted on a walking aid, pointing towards the legs of the user. 
@@ -81,6 +95,7 @@ Projects
     - I have worked on segmenting feet from image by using clustering algorithms on the optical flow features captured using camera mounted on a walker and estimated position of feet to analyze gait motion.
 
     - I have estimated the parameters of the motion by modeling the motion of feet and camera and fitting the projected points from the calibrated camera using RANSAC.
+-->
 
 *   **Spline smoothing of trajectories for robotic arm**, _Oct 2013 - Nov 2013_
 
@@ -106,7 +121,7 @@ Skills
 
 *   C++, Python, Haskell
 
-*   Linux, Windows
+*   Embedded Systems, Microcontrollers, Linux
 
 *   ROS, OpenCV, PCL
 
@@ -138,3 +153,14 @@ References
         Electrical Engg., IIT Bombay
 
         <!---patkar@ee.iitb.ac.in--->
+
+Scholastic Achievements
+------
+
+* All India Rank 61 in IIT-JEE 2010 of 455,000 students
+
+* All India Rank 3 in NEST (National Entrance Screening Test) 2010 of 18000 students
+
+* Qualified in Indian National Chemistry Olympiad 2010 and Indian National Physics Olympiad 2010
+
+* Awarded Certificate of Merit by Central Board of Secondary Education (CBSE) for being among top 0.1 % in Science and Social Science in 2008
